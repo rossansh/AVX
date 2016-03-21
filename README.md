@@ -1,1 +1,1 @@
-# AVX
+# Classification d'images :)
