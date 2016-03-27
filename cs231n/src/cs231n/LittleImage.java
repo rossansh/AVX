@@ -1,10 +1,12 @@
 package cs231n;
 
 public class LittleImage {
-	private int[] pixels;
-	private String label;
+	public static final int LITTLE_IMAGE_SIZE = 32;
 	
-	public LittleImage(int[] pixels, String label) {
+	private int[] pixels;
+	private Label label;
+	
+	public LittleImage(int[] pixels, Label label) {
 		this.pixels = pixels;
 		this.label = label;
 	}
@@ -13,7 +15,7 @@ public class LittleImage {
 		return pixels;
 	}
 
-	public String getLabel() {
+	public Label getLabel() {
 		return label;
 	}
 }
